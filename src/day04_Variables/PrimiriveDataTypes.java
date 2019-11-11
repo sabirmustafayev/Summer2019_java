@@ -50,6 +50,7 @@ public class PrimiriveDataTypes {
         char char7 = 123 ;
         System.out.println(char7);  // prints the chracter that has the number of 123 from ASCII Table
         
+        System.out.println(" initializing char to other primitives: byte, short, int, long, float, double");
         
         // initializing char to other primitives: byte, short, int, long, float, double
             char MyChar1 = 'b';
@@ -74,6 +75,7 @@ public class PrimiriveDataTypes {
             System.out.println(LongNum);
             System.out.println(LongNum2);		
 		
+            
 	}
 
 }

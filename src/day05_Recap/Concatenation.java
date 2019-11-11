@@ -47,7 +47,7 @@ public class Concatenation {
 		System.out.println("3" + 3);// string + integer
 		System.out.println('3' + 3); // char + integer char 3= 51 so 51+3= 54
 		
-		
+
 	}
 
 }

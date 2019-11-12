@@ -42,12 +42,12 @@ public abstract class Animal {
    public abstract void Sleep();
    public abstract void Drink();*/
    
-   public abstract void Speak(String languge);
-   public abstract void Eat(String food);
-   public abstract void Sleep(int hour);
-   public abstract void Drink(String drinks);
+   public abstract void Speak(String languge);  //abstarct method
+   public abstract void Eat(String food);  //abstarct method
+   public abstract void Sleep(int hour);  //abstarct method
+   public abstract void Drink(String drinks);  //abstarct method
    
-   public void getInfo() {
+   public void getInfo() {    //instance method
        System.out.println("NickName is "+Nickname);
        System.out.println("Gender is "+Gender);
        System.out.println("Color is "+color);

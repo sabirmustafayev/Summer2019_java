@@ -15,7 +15,7 @@ package day53_InterfaceContinue;
                     implement Cars and GasVehicles Interfaces
             3. ToyotaHybird:
                     implement Cars, GasVehicles, and  ElectricVehicles Interfaces
-Collapse
+
 
 
 
@@ -23,6 +23,7 @@ Collapse
  */
 
 public interface Cars {
+	
 	
 	public abstract void start();
 

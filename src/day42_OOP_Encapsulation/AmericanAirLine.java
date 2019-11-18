@@ -12,7 +12,7 @@ public class AmericanAirLine {
 		//System.out.println(emrah.Name); // private data is not visible outside the class
 		
 		System.out.println( emrah.getName() ); // Sabir
-		
+	
 		//**********************ssn*******************************
 		 emrah.setSSN(1234546);
          System.out.println(emrah.getSSN());

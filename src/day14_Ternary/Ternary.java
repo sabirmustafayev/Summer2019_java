@@ -13,22 +13,22 @@ public class Ternary {
     */
    
    public static void main(String[] args) {
-       int num = 0;
+       /*int num = 0;
        
        if(false) {
            num = 100;
        }else {
            num = 50;
-       }
+       }*/
            
-   int n = (false)? 100 : 50 ;   // ternary returns a Value
+   int n = (true)? 100 : 50 ;   // ternary returns a Value
    
    int y = false ? 100 : 50;  
                System.out.println(50 );
    
-   System.out.println(num);  // 50
-   System.out.println(n);  // 50
-   System.out.println(y);
+  // System.out.println(num);  // 50
+   System.out.println(n+" nn");  // 50
+   System.out.println(y+ "yyy");
    
    
        String Schoolname ="";

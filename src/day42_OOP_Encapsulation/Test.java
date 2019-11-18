@@ -8,20 +8,21 @@ public class Test {
 		
 		// System.out.println(obj.LastName); LastName data is private so this class can not reach it.
 		
-		System.out.println(obj.getName());
 		
-		String str = obj.getName(); // getName method return String value so we cna assign it to string variable
+		System.out.println(obj.getLastName());
+		
+		String str = obj.getLastName(); // getName method return String value so we cna assign it to string variable
 		
 		int a = obj.getID();
 		
 		System.out.println(obj.getID());
 		
-		
+	
 	//modify
 		//obj.NAme = "Nurzat";
 		obj.setName("Nurzat");
 		
-		System.out.println(obj.getName());
+		System.out.println(obj.getLastName());
 		
 		obj.setID(400);
 		System.out.println(obj.getID());

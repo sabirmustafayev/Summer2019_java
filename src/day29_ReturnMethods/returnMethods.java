@@ -11,7 +11,7 @@ public class returnMethods {
        
        name();  // this is a String value
    //  "z"
-       
+      
        System.out.println( name() ); // return methods are either printed or assigned to the variable
    
        String str = name();

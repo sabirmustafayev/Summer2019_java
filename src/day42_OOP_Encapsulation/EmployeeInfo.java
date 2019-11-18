@@ -8,7 +8,7 @@ public class EmployeeInfo {
 	 Age
 	 Salary
 	 */
-	
+
 	private String Name;
 	private long SSN;
 	private byte Age;

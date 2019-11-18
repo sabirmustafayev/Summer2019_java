@@ -16,7 +16,7 @@ public class charAtMethod_If_For_REVERSE_String {
 		
 		if (word.length() ==5) {
 			for (int i = word.length()-1; i >=0; i--) {
-				
+			
 				reversed += word.charAt(i);
 			}
 			System.out.println(reversed);

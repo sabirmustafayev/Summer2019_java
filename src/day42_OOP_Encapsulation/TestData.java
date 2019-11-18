@@ -11,8 +11,8 @@ public class TestData {
 	private int ID = 897;
 	
 	//getter:   Read the data
-	public String getName() { //read the private data only
-		return Name;
+	public String getLastName() { //read the private data only
+		return LastName;
 	}
 	
 	public int getID() {

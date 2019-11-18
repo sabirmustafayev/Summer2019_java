@@ -9,9 +9,10 @@ public class ArrayReview_FindingMaxMinNumbers {
 				Scanner scan = new Scanner(System.in);
 				
 				System.out.println("How many numbers would you like to add?");
+				
 				int number = scan.nextInt();
 				int[] arr = new int[number];
-				
+			
 				for (int i = 0; i < number; i++) {
 				    System.out.println("Enter a number: ");
 				    arr[i] = scan.nextInt(); // user input

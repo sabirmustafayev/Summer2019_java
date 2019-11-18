@@ -17,10 +17,12 @@ public class BreakTimeMethod {
 			Continue();
 	}
 	
+	//****************** Custome Methods *********************
+	
 	public static void BreakTime() {
 		 System.out.println("Yeaaaaah, Break time )))");
 		
-		
+	
 	}
 	
 	public static void Continue() {

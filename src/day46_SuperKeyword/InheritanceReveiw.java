@@ -2,9 +2,9 @@ package day46_SuperKeyword;
 
 import day45_Protected_Default.ProtectedVariables;
 
-class Data {
+class Data { //default class
 	
-	public  int num1 =10;
+	public  int num1 =10; 
 	protected  int num2 = 20;
 	private  int num3 = 30;
 	int num4 = 40;
@@ -12,7 +12,7 @@ class Data {
 }
 
 
-public class InheritanceReveiw  extends Data{
+public class InheritanceReveiw  extends Data{   //public class
 	//			sub                     super			
 	
 	/*

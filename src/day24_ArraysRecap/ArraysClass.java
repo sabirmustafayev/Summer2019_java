@@ -5,11 +5,13 @@ public class ArraysClass {
 	        
 		 /*
          Array Declerations:
-                1. DataType[] VariableName = { Value1,Value2,...}; 
-                2. DataType VariableName[] = { Value1,Value2,...};
+                1. DataType[] VariableName = { Value1,Value2,...};  int[] arr = { 10, 20, 30 };
+                2. DataType VariableName[] = { Value1,Value2,...};  int arr[] = { 10, 20, 30 };
          */
         int a =10;
         int[] arr = { 10, 20, 30 };
+        
+        
         
         int  arr2[] = {10, 20, 30};
         

@@ -20,7 +20,7 @@ public class WarmUp1 {
 		
 		//****Entering the values of the array**************
 		for (int j = 0; j < arr.length; j++) {
-			System.out.println("Enter a number");
+			System.out.println("Enter next number");
 			arr[j]=scan.nextInt();			
 		}
 		

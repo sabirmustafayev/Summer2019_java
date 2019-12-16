@@ -16,20 +16,23 @@ public class StaticBlock {
         
      */
 	
-	static String[] arr = new String[3];
-	static ArrayList<String> list = new ArrayList<>();
-	double salary;
+	static String[] arr = new String[3];  //static array
+	static ArrayList<String> list = new ArrayList<>(); // static ArrayList
+	double salary = 3000; // instance variable
 	
-	static {
+	
+	
+	static { // static initializer block is used for initializing static variable 
 		System.out.println("static block");
 		arr[2] = "Alla";
 		arr[0] = "Kateryna";
 		arr[1] = "Ruslan";
 		
+		
 		int sab = 10;
 		System.out.println(sab); // local variabl in static block can be JUST used in satic blocks
 		
-		list.addAll(Arrays.asList(arr));
+		list.addAll(Arrays.asList(arr));  // elements of 'arr' array ARE ADDED (copied)to 'list' ArrayList
 		
 		// salary = 5000;  // static only accepts static
         
@@ -37,8 +40,6 @@ public class StaticBlock {
            obj1.salary = 4000;
            System.out.println( obj1.salary ); // 4000
 	} 
-	
-	
 	
 	
 	

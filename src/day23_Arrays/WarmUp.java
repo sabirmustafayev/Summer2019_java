@@ -15,14 +15,14 @@ public class WarmUp {
 		int count = 0;
 		
 		while(x>=y) {
-			x-=y;
-			count++;
+			x-=y; //14,8,2
+			count++;//1,2,3
 		}
 		System.out.println(count); //result after diving the two numbers
-		System.out.println(20/6);
+		System.out.println(20/6); // system show  us whole number that is why 20 / 6 = 3 
 		System.out.println(x);//reminder
 		
-		//******************************************************************************
+		System.out.println("******************************************************************************");
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter two numbers");
 		

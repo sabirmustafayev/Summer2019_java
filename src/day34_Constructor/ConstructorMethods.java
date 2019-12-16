@@ -9,7 +9,7 @@ decleration of constructor:
        }
 */
 
-public ConstructorMethods() {   // Contructor execution is depended on creation of object
+ ConstructorMethods() {   // Constructor execution is depended on creation of object
    
    System.out.println("Hello World");
    System.out.println("I am a default constructor");
@@ -30,7 +30,7 @@ public static void main(String[] args) {
 //  ConstructorMethods obj = new  ConstructorMethods( "A" ); 
                    // object was not created with exisiting constructor
    
-   ConstructorMethods  obj2 = new ConstructorMethods(8);  // creation of object
+   ConstructorMethods  obj2 = new ConstructorMethods(8);  // creation of object is for called public constructor with int parameter
    
    
            method1();
@@ -41,7 +41,7 @@ public static void main(String[] args) {
 
 public static void method1() {
    
-   ConstructorMethods  obj2 = new ConstructorMethods(8);
+   ConstructorMethods  obj2 = new ConstructorMethods(); //this object creation is for called default constructor without parameter
    
 }
 

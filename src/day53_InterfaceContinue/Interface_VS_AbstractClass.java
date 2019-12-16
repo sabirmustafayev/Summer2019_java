@@ -2,6 +2,10 @@ package day53_InterfaceContinue;
 
 public interface Interface_VS_AbstractClass {
 	
+	// Access-modifier className(){ } this is the constructor
+	//we can not create constructor in interface because construct name should be as same as class name. but interface is not class
+	
+	
 	public abstract void method1();
 	public abstract int method2();
 	
@@ -21,6 +25,10 @@ public interface Interface_VS_AbstractClass {
 	public static void main(String[] args) {
 		System.out.println(a); // because a is static variable in interface
 		System.out.println(Interface_VS_AbstractClass.a); // also we can "a" varibale by it's interface name
+		
+		//Interface_VS_AbstractClass obj = new Interface_VS_AbstractClass();
+		
+		//Interface is nor class, abstraction is not concrete, but object has to be concrete
 	}
 	
 	/*class Test implements Interface_VS_AbstractClass {

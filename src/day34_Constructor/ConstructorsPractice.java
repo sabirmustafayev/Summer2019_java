@@ -35,7 +35,7 @@ public class ConstructorsPractice {
 		
 		ConstructorsPractice obj3 = new ConstructorsPractice(10);
 				// constructor' execution is ALWAYS depends on the creation of object
-		
+		System.out.println("**************************************************************");
 		
 		 method2();
 		
